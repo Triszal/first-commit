@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>		
+    <head> 
+        <title>LETSCHAT.WelcomePage</title>
+    </head>
+
+    <body>
+
+        <style>
+            body{
+                background: url("Background.jpg");
+                background-repeat: no-repeat;	
+                background-size: cover;
+            }
+        </style>
+
+
+
+        <pre style = "font-size: 80px; color:Orange;" > Welcome to Lets Chat</pre>
+
+
+        <fieldset>
+            <legend style = "font-size: 40px; color:LightBlue" >Sign IN</legend>
+            <pre>
+   <label style = "font-size: 30px; color:LightBlue" >Username:</label>       <input type = "uname" placeholder="username"
+                 id = "myText"/>
+            </pre>
+            <pre>
+   <label style = "font-size: 30px; color:LightBlue" >Password:</label>       <input type = "password" placeholder="password"
+                  id = "myPwd" />
+            </pre> 
+            <form action="login" method="post">
+                <p>
+                    <input type = button
+                           value = "Sign in"
+
+                </p>
+            </form>
+
+            <p>
+                <input type = button
+                       value = "Forgot password"
+                       onClick = "self.location = 'index4.html'">
+            </p>
+        </fieldset>
+
+
+        <p>
+            <input type = button
+                   value = "Create Account"
+                   onClick = "self.location = 'index3.html'">
+        </p>
+
+        <p>
+            <input type = button
+                   value = "Continue as Guest"
+                   onCLick = "self.location = '">
+        </p>
+    </body>	
+
+</html>  
